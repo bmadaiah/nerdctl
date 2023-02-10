@@ -21,7 +21,7 @@ require (
 	github.com/coreos/go-systemd/v22 v22.3.2
 	github.com/cyphar/filepath-securejoin v0.2.3
 	github.com/docker/cli v20.10.16+incompatible
-	github.com/docker/docker v20.10.16+incompatible
+	github.com/docker/docker v23.0.1+incompatible
 	github.com/docker/go-connections v0.4.0
 	github.com/docker/go-units v0.4.0
 	github.com/fatih/color v1.13.0
@@ -49,7 +49,7 @@ require (
 	golang.org/x/crypto v0.0.0-20220513210258-46612604a0f9
 	golang.org/x/net v0.0.0-20220516133312-45b265872317
 	golang.org/x/sync v0.0.0-20220513210516-0976fa681c29
-	golang.org/x/sys v0.0.0-20220513210249-45d2b4557a2a
+	golang.org/x/sys v0.0.0-20220520151302-bc2c85ada10a
 	golang.org/x/term v0.0.0-20220411215600-e5f449aeb171
 	gopkg.in/yaml.v2 v2.4.0
 	gotest.tools/v3 v3.2.0
@@ -169,6 +169,8 @@ require (
 	gopkg.in/square/go-jose.v2 v2.5.1 // indirect
 	sigs.k8s.io/yaml v1.3.0 // indirect
 )
+
+require github.com/moby/sys/sequential v0.5.0 // indirect
 
 replace (
 	// containerd main
